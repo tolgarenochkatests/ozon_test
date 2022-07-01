@@ -32,3 +32,4 @@ def test_add_to_favorites_and_delete_from_basket(browser):
     basket_page.should_be_empty_basket()
     basket_page.go_to_favorites()
     basket_page.should_be_same_name(name)
+
